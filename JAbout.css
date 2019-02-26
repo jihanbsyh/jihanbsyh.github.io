@@ -1,0 +1,63 @@
+header {
+  text-align: center;
+}
+
+p {
+	font-size: 20px;
+	line-height: 25px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-family: 'Palatino';
+  text-align: justify;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+ul {
+	background-color: dimgrey;
+	padding: 20px;
+}
+
+li {
+	display: inline;
+	margin: 50px;
+	font-size: 20px;
+}
+
+a{
+	text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+  color: pink;
+}
+
+/* visited link */
+a:visited {
+  color: pink;
+}
+
+/* mouse over link */
+a:hover {
+  color: lavender;
+}
+
+/* unvisited link */
+a.link:link {
+  color: mediumvioletred;
+}
+
+/* visited link */
+a.link:visited {
+  color: mediumvioletred;
+}
+
+/* mouse over link */
+a.link:hover {
+  color: rebeccapurple;
+}
+
+a.link{
+  text-decoration: none;
+}

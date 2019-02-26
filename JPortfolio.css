@@ -1,34 +1,30 @@
 header {
 	background-image: url(https://cdna.artstation.com/p/assets/images/images/005/484/648/large/natalie-de-blasis-low-poly-crystals-glow2.jpg?1491365693);
 	text-align: center;
-}
-
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Palatino';
+	padding-bottom: 70px;
 }
 
 h1 {
 	color: white;
+	font-family: 'Palatino';
 	font-size: 70px;
 	margin-top: 60px;
 	margin-bottom: 60px;
 }
 
-h2 {
-	font-size: 50px;
-	margin-bottom: 20px;
-}
-
 p {
 	font-size: 20px;
-	line-height: 1.6;
+	line-height: 25px;
 	margin-bottom: 20px;
 	margin-top: 20px;
 	font-family: 'Palatino';
+	text-align: justify;
+	margin-left: 200px;
+	margin-right: 200px;
 }
 
 ul {
-	background-color: grey;
+	background-color: dimgrey;
 	padding: 20px;
 }
 
@@ -53,7 +49,6 @@ a:hover {
   color: lavender;
 }
 
-/* selected link */
-a:active {
-  color: pink;
+a{
+	text-decoration: none;
 }
