@@ -5,11 +5,9 @@ header {
 }
 
 h1 {
-	color: white;
-	font-family: 'Palatino';
+	color: black;
+	font-family: Serif;
 	font-size: 70px;
-	margin-top: 60px;
-	margin-bottom: 60px;
 }
 
 p {
@@ -17,21 +15,10 @@ p {
 	line-height: 25px;
 	margin-bottom: 20px;
 	margin-top: 20px;
-	font-family: 'Palatino';
+	font-family: sans-serif;
 	text-align: justify;
 	margin-left: 200px;
 	margin-right: 200px;
-}
-
-ul {
-	background-color: dimgrey;
-	padding: 20px;
-}
-
-li {
-	display: inline;
-	margin: 50px;
-	font-size: 20px;
 }
 
 /* unvisited link */
